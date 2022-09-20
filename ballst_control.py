@@ -2,8 +2,6 @@
 import getpass
 import time
 from db_operator import *
-
-
     
 # Cria coneão com db
 connection = con_creation()
