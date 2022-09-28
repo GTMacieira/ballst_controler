@@ -7,152 +7,141 @@
     <x>0</x>
     <y>0</y>
     <width>300</width>
-    <height>360</height>
+    <height>340</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>300</width>
+    <height>340</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>450</width>
+    <height>550</height>
+   </size>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>MENU</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../../.designer/backup/recursos/logocig.png</normaloff>../../../.designer/backup/recursos/logocig.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(0, 82, 153);</string>
   </property>
-  <widget class="QFrame" name="frame">
-   <property name="geometry">
-    <rect>
-     <x>5</x>
-     <y>5</y>
-     <width>290</width>
-     <height>100</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgba(0, 0, 0, 0.2);</string>
-   </property>
-   <property name="frameShape">
-    <enum>QFrame::StyledPanel</enum>
-   </property>
-   <property name="frameShadow">
-    <enum>QFrame::Raised</enum>
-   </property>
-   <widget class="QPushButton" name="new_seq_botton">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>5</y>
-      <width>125</width>
-      <height>40</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color:rgb(124, 151, 200)</string>
-    </property>
-    <property name="text">
-     <string>NOVO TIPO DE DIVIDA</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="new_ballast_botton">
-    <property name="geometry">
-     <rect>
-      <x>150</x>
-      <y>5</y>
-      <width>125</width>
-      <height>40</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color:rgb(124, 151, 200)</string>
-    </property>
-    <property name="text">
-     <string>NOVO SEQUENCIAL</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="new_seq_botton_2">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>50</y>
-      <width>125</width>
-      <height>40</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color:rgb(124, 151, 200)</string>
-    </property>
-    <property name="text">
-     <string>NOVO LASTRO</string>
-    </property>
-   </widget>
-  </widget>
-  <widget class="QFrame" name="frame_2">
-   <property name="geometry">
-    <rect>
-     <x>5</x>
-     <y>115</y>
-     <width>290</width>
-     <height>100</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgba(0, 0, 0, 0.2);</string>
-   </property>
-   <property name="frameShape">
-    <enum>QFrame::StyledPanel</enum>
-   </property>
-   <property name="frameShadow">
-    <enum>QFrame::Raised</enum>
-   </property>
-   <widget class="QPushButton" name="new_ballast_botton_2">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>5</y>
-      <width>125</width>
-      <height>40</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color:rgb(124, 151, 200)</string>
-    </property>
-    <property name="text">
-     <string>NOVO LASTRO</string>
-    </property>
-   </widget>
-  </widget>
-  <widget class="QFrame" name="frame_3">
-   <property name="geometry">
-    <rect>
-     <x>5</x>
-     <y>225</y>
-     <width>290</width>
-     <height>100</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgba(0, 0, 0, 0.2);</string>
-   </property>
-   <property name="frameShape">
-    <enum>QFrame::StyledPanel</enum>
-   </property>
-   <property name="frameShadow">
-    <enum>QFrame::Raised</enum>
-   </property>
-   <widget class="QPushButton" name="new_ballast_botton_3">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>5</y>
-      <width>140</width>
-      <height>40</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color:rgb(124, 151, 200)</string>
-    </property>
-    <property name="text">
-     <string>NOVO LASTRO</string>
-    </property>
-   </widget>
-  </widget>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QFrame" name="creation">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0, 0, 0, 0.2);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QPushButton" name="new_seq_botton">
+        <property name="styleSheet">
+         <string notr="true">background-color:rgb(124, 151, 200)</string>
+        </property>
+        <property name="text">
+         <string>NOVO SEQUENCIAL</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="new_debt_tp_botton">
+        <property name="styleSheet">
+         <string notr="true">background-color:rgb(124, 151, 200)</string>
+        </property>
+        <property name="text">
+         <string>NOVO TIPO DE DIVIDA</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="new_ballast_botton">
+        <property name="styleSheet">
+         <string notr="true">background-color:rgb(124, 151, 200)</string>
+        </property>
+        <property name="text">
+         <string>NOVO LASTRO</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="alter">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0, 0, 0, 0.2);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QPushButton" name="repactt_botton">
+        <property name="styleSheet">
+         <string notr="true">background-color:rgb(124, 151, 200)</string>
+        </property>
+        <property name="text">
+         <string>REPACTUAÇÃO</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="exced_ballast_botton">
+        <property name="styleSheet">
+         <string notr="true">background-color:rgb(124, 151, 200)</string>
+        </property>
+        <property name="text">
+         <string>ATRIBUIR LASTRO EXCEDENTE</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="relat">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0, 0, 0, 0.2);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QPushButton" name="rel_mes_botton">
+        <property name="styleSheet">
+         <string notr="true">background-color:rgb(124, 151, 200)</string>
+        </property>
+        <property name="text">
+         <string>RELATÓRIO MESA</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
  </widget>
  <resources/>
  <connections/>
